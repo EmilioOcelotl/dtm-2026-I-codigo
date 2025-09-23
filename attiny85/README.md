@@ -44,4 +44,4 @@ En Digispark LED_BUILTIN no está definido y se define en 1.
 
 ## Pantalla ST7735
 
-[Instrucciones](./ST7735,md) para usar la pantalla ST7735
+[Instrucciones](./ST7735.md) para usar la pantalla ST7735
