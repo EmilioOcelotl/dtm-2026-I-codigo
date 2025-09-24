@@ -1,30 +1,3 @@
-# Pantalla ST7735
-
-Para echar a andar la [pantalla ST7735](https://uelectronics.com/producto/tft-display-lcd-0-96-spi-hd-65k-colores-st7735/) es importante tener en cuenta que attiny es una placa pequeña de poca potencia. 
-
-Por este motivo no podemos usar archivos de la computadora, pero sí podemos producir imágenes generativas. 
-
-Esto quiere decir que es la misma lógica de programación la que cambia el valor de los pixeles sin una imagen de referencia almacenada en algún lado. 
-
-## Primer paso: Cableado ATtiny85 - Pantalla ST7735
-
-El primer paso consiste en hacer el cableado necesario 
-
-| Pin Digispark  | Conexión Pantalla ST7735  |
-|----------------|---------------------------|
-| `P0`           | → `CS` (Chip Select)      |
-| `P1`           | → `SDA` (Data/MOSI)       |
-| `P2`           | → `SCL` (Clock/SCK)       |
-| `P3`           | → `DC` (Data/Command)     |
-| `P4`           | → `RES` (Reset)           |
-| `5V`           | → `VCC` (Alimentación)    |
-| `GND`          | → `GND` (Tierra)          |
-
-## Segundo paso: subir el programa con Arduino IDE
-
-Como no vamos a generar geometrías o a tomar imágenes como referencia no necesitamos bibliotecas adicionales. Si el cableado fue realizado de manera adecuada, el siguiente programa debería funcionar: 
-
-```
 /*
   ATTINY85 ST7735 - Control Total por Hardware
   Sin dependencias externas
@@ -218,6 +191,3 @@ void loop() {
   fillScreen(WHITE);
   delay(1000);
 }
-```
-
-El resultado: La pantalla cambia de color cada cierto tiempo. 
