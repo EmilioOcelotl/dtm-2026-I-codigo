@@ -32,4 +32,13 @@ En Digispark LED_BUILTIN no está definido y se define en 1.
 
 ## LEDs
 
+[Código](./ledsPWM/ledsPWM.ino) para activar un pin analógico y hasta 3 pines PWM con ATTINY85. 
+[Código](./ledsDigitales/ledsDigitales.ino) para activar un pin analógico y hasta 5 pines digitales con ATTINY85. 
+
 ## Neopixel
+
+IMPORTANTE: Es necesaria una resistencia para el pin de datos e instalar la biblioteca. 
+
+[Código](./neopixel/neopixel.ino) para usar un led neopixel con ATTINY85.
+
+Este LED es RGB ¿En qué otras variaciones de color pueden pensar?

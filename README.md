@@ -8,6 +8,10 @@ Códigos y configuraciones para [Lilypad](./lilypad/README.md) (Mayoría de los 
 
 ## ATTINY85
 
-Códigos y configuraciones para [ATTINY85](./attiny85/README.md) (Pantallas y placas muy pequeñas)
+Códigos y configuraciones para [ATTINY85](./attiny85/README.md) (Usos con placas muy pequeñas y pantallas)
+
+## GEMMA 
+
+Pendiente 
 
 
