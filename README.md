@@ -1,10 +1,13 @@
 # DTM Código 
 
-Códigos y recursos. 
+Códigos para leer y escribir con Lilypad y ATTINY85. 
+
+## Lilypad
+
+Códigos y configuraciones para [Lilypad](./lilypad/README.mdW)
 
 ## ATTINY85
 
-Recursos específicos para [ATTINY85](./attiny85/README.md)
+Códigos y configuraciones para [ATTINY85](./attiny85/README.md)
 
-## Lilypad
 
