@@ -20,6 +20,8 @@ Requerirás los siguientes driver para poder usar la tarjeta de desarrollo ATtin
 
 NOTA IMPORTANTE: Para programar la placa primero es necesario dejar desconectada la placa y cuando la consola lo indique, conectar para subir el programa. 
 
+NOTA IMPORTANTE 2: Estos códigos fueron probados en Windows, en Linux casi no sirven y en MacOS no hay información. 
+
 ## Primera prueba 
 
 Para revisar que funciona podemos usar este [ejemplo](./example/example.ino)
