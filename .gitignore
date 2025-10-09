@@ -1,0 +1,27 @@
+# Entornos virtuales
+venv/
+env/
+.venv/
+
+# Archivos cache de Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Configuraciones
+.vscode/
+.idea/
+
+# Sistema
+.DS_Store
+
+# riso_compressor
+
+**/*_reduced.png
+**/*_riso_style.png
+**/attiny85_image*.c
+**/test_input.png    # Por si acaso
+**/input_image.jpg
+**/input_image.png
+**/input_image.jpeg
