@@ -42,7 +42,7 @@ class GrayscaleATtiny85:
         return output_array
 
     def compress_2bpp(self, image_array):
-        """Compresión 4 píxeles por byte (2 bits/píxel)."""
+        """Compresión 4 píxeles por byte (2 bits/píxel) - orden corregido."""
         compressed = []
         for y in range(self.target_height):
             for x in range(0, self.target_width, 4):
@@ -50,7 +50,7 @@ class GrayscaleATtiny85:
                 for n in range(4):
                     if x + n < self.target_width:
                         color_idx = image_array[y, x + n] & 0x03
-                        byte_val |= color_idx << (n * 2)
+                        byte_val |= color_idx << (6 - n * 2)  # Orden MSB first
                 compressed.append(byte_val)
         return compressed
 
