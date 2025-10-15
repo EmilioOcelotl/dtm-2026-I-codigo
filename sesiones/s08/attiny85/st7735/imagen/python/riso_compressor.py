@@ -58,10 +58,10 @@ class GrayscaleATtiny85:
 def generate_c_file(compressed_data, width, height, filename="attiny85_image.c"):
     """Genera el archivo C con la imagen comprimida."""
     palette_rgb565 = [
-        0x0000,  # Negro
-        0x52AA,  # Gris oscuro
-        0xAD55,  # Gris claro
-        0xFFFF   # Blanco
+        0xFFFF,  # Negro
+        0xAD55,  # Gris oscuro
+        0x52AA,  # Gris claro
+        0x0000   # Blanco
     ]
 
     c_code = f"""#include <avr/pgmspace.h>
