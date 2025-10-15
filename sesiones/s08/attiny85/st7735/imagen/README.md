@@ -1,6 +1,22 @@
 # Desplegar imagen en ATtiny85 con ST7735S
 
-## Requisitos
+## Navegador (más facil)
+
+Instrucciones para comprimir la imagen desde el navegador: 
+
+- Abre la herramienta en GitHub Pages
+- Selecciona o arrastra una imagen
+- Visualiza las previsualizaciones original y procesada
+- Genera el archivo C
+- Descarga el archivo attiny85_image.c
+
+Enlace: https://emilioocelotl.github.io/conversor-imagenes-attiny85/
+
+## Python
+
+Instrucciones para comprimir una imagen en Python: 
+
+### Requisitos
 
 * Python 3.8 o superior.
 * Arduino IDE con soporte para ATtiny85.
@@ -8,7 +24,7 @@
 
 ---
 
-## 1. Crear y activar entorno virtual
+### 1. Crear y activar entorno virtual
 
 Desde la carpeta raíz de imagen (`imagen/`):
 
@@ -40,14 +56,14 @@ pip install Pillow numpy
 
 ---
 
-## 2. Preparar la imagen
+### 2. Preparar la imagen
 
 1. Coloca la imagen que quieres desplegar dentro de la carpeta `python/`.
 2. Asegúrate de que tenga proporción similar a la pantalla (idealmente 80x160 píxeles).
 
 ---
 
-## 3. Generar archivo `.c` para Arduino
+### 3. Generar archivo `.c` para Arduino
 
 Ejecuta el script desde la carpeta raíz:
 
@@ -65,18 +81,11 @@ El script hará lo siguiente:
 
 ---
 
-## 4. Integrar con Arduino
+## Integrar con Arduino
 
-1. Copia `python/attiny85_image.c` a la carpeta `arduino/` donde está tu sketch.
-2. Incluye el archivo en tu sketch:
+Copia `python/attiny85_image.c` a la carpeta `arduino/` donde está tu sketch (Con Python o el navegador)
 
-```cpp
-#include "attiny85_image.c"
-```
-
----
-
-## 5. Subir proyecto al ATtiny85
+### Subir proyecto al ATtiny85
 
 1. Conecta tu ATtiny85 al programador.
 2. Selecciona la placa y programador correctos en Arduino IDE.
