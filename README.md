@@ -18,7 +18,7 @@ Protocolo de comunicación: Open Sound Control (OSC).
 - [x] [Sesión 06](./sesiones/s06/README.md). 12 sept 2025. Colores y Hydra. 
 - [x] Sesión 07. 19 sept 2025. Descripción de programas. 
 - [x] [Sesión 08](./sesiones/s08/README.md). 26 sept 2025. Revisión y ajustes de códigos. 
-- [x] Sesión 09. 08 oct 2025. Revisión y ajustes de códigos II. 
+- [x] [Sesión 09](./sesiones/s09/README.md). 08 oct 2025. Revisión y ajustes de códigos II. 
 
 ## Pendientes
 
