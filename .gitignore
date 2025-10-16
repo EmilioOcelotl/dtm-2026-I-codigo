@@ -20,7 +20,6 @@ __pycache__/
 
 **/*_reduced.png
 **/*_riso_style.png
-**/attiny85_image*.c
 **/test_input.png    # Por si acaso
 **/input_image.jpg
 **/input_image.png

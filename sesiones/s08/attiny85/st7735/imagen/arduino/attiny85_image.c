@@ -1,0 +1,1 @@
+// Copiar aquí el código con la imagen comprimida
